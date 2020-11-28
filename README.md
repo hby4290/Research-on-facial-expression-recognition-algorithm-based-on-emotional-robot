@@ -4,8 +4,20 @@
 其中人机交互现阶段主要是通过鼠标和键盘点击图形界面 或输入命令语言来进行的，虽然可以满足基本需求和大部分应用场景，但在一些不方便使用手来操 作或需要快速、远程操作等特殊场景下，传统人机交互就显示出不足的地方。而利用表情、语音、手势等方式来进行交互，则能解决以上提到的问题，达到快速、便捷的人机交互。又如在医疗领域， 医务人员由于人数和精力限制，无法随时观察病人的情况。利用人脸表情识别系统，可随时获取病 人脸部特征，从而反映病人的疼痛情况，及时发现紧急情况。再如汽车驾驶领域，车载表情识别系 统可实时观察驾驶员的表情变化，及时发现疲劳、酒后驾驶等危险情况并给出警告，从而避免这类 交通事故的发生。 除了上述列举的一些例子，情感机器人在未来也有着巨大的发展需求。随着科技的发展和人口 老龄化的转变，情感机器人无论在照顾老人还是教育儿童，甚至是工作和生活的各个方面，都有着 重要的作用和价值。而表情识别作为情感机器人所必须具备的能力，同样需要深入研究和探索，最 终实现接近甚至匹敌人类的表情识别能力。综上所述，人脸表情识别的研究具有广阔的应用前景和 深远的影响。
 #This project addresses the problem of facial expression recognition, and explains the general basic steps of facial expression recognition and the principle of convolutional neural network. On the basis of the mini_Xception expression recognition algorithm based on convolutional neural network, by adding local connection layers and other operations Improve the algorithm, and use the Keras deep learning library for model training and evaluation. The experimental results show that the improved algorithm compares the accuracy of the mini_Xception algorithm on the test data set from 66.8% to 69.0%. It can easily identify happy and neutral expressions, and can also identify exaggerated expressions of anger, fear and surprise. For the three expressions, the overall recognition effect is better than the mini_Xception algorithm. In the end, this topic uses Python programming to enable NAO emotional robots to use improved facial expression recognition algorithms to recognize facial expressions, and make corresponding verbal and action responses. With the continuous development of artificial intelligence technology, its research content is gradually expanding and extending, and more and more human abilities can be realized on computers. Among them, the research on human emotional cognition, as a higher stage of artificial intelligence, has gradually entered people's field of vision, and emotional computing has subsequently become an emerging research field. Emotional computing refers to calculations that are related to emotions, derived from emotions or that can affect emotions. Its purpose is to create a more harmonious and convenient human-computer environment by giving computers the ability to recognize, understand, express and adapt to emotions similar to humans, and ultimately enable computers to interact naturally, cordially and vividly with people, so that computers have Higher and more comprehensive intelligence.
 In the application field of emotional computing, facial expression recognition is relatively basic and easy to implement. It has become a hot research topic and has achieved certain results. Facial expression recognition, that is, the computer separates and recognizes the facial expression state from the acquired static images or dynamic videos, thereby determining the psychological emotion of the recognized object. In the current facial expression recognition research, the identifiable facial expressions are basically divided into seven facial expressions: happy, sad, angry, surprised, fearful, disgusted and neutral. These expressions are more common and obvious, and can reflect the real psychological emotions to a certain extent, so that computers can understand human emotions. Facial expression recognition can be widely used in various fields such as human-computer interaction, security, intelligent robots, medical treatment, communication and automobile driving, and has high research value and development potential.
+
+
+
 #FAQ
+
+
+
 #INSTALL
+
+
+
 #CREDITS
+
+
+
 #HISTORY
 
